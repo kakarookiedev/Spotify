@@ -2,6 +2,7 @@
 body{
     background-image: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169,#7c26f8);
     background-attachment: fixed;
+    overflow-x: hidden;
     font-family:  Helvetica, Arial, sans-serif;
 }
 
@@ -117,30 +118,6 @@ body{
     transform: rotate(30deg);
 	padding-left: 80px;
     margin-top: 10px;
-    z-index: 1;
-}
-
-@media screen and (max-width: 1370px) {
-    .rotacionar{
-        width: 80%;
-        padding-left: 5px;
-        margin-top: 25px;
-        margin-right: 15px;
-    }
-    #sobre .alinhar{
-        display: flex;
-        justify-content: center;
-        align-content: flex-end;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .row .alinhar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-right: -15px;
-    }
 }
 
 
